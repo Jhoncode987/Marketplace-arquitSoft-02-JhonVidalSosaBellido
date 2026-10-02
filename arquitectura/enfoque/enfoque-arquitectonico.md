@@ -2,17 +2,17 @@
 
 ## Descripción del Enfoque Seleccionado
 
-Para la organización interna del código del **Marketplace de Productos para Mascotas**, se adopta el enfoque de **Clean Architecture (Arquitectura Limpia)**[cite: 20]. 
+Para la organización interna del código del **Marketplace de Productos para Mascotas**, se adopta el enfoque de **Clean Architecture (Arquitectura Limpia)**. 
 
-El objetivo principal es separar las responsabilidades de la aplicación y controlar estrictamente que las dependencias apunten hacia el núcleo del dominio[cite: 16, 20].
+El objetivo principal es separar las responsabilidades de la aplicación y controlar estrictamente que las dependencias apunten hacia el núcleo del dominio.
 
 | Elemento | Descripción Aplicada al Marketplace |
 |---|---|
-| **Patrón / Enfoque Arquitectónico** | Clean Architecture (Arquitectura Limpia)[cite: 20]. |
-| **Objetivo** | Separar responsabilidades y controlar las dependencias hacia el dominio[cite: 20]. |
-| **¿Qué problema resuelve?** | Evita el acoplamiento entre la interfaz Angular, las reglas del negocio y las tecnologías externas (bases de datos, API REST, pasarela de pagos)[cite: 20]. |
-| **Capas Definidas** | Presentación, Aplicación, Dominio e Infraestructura[cite: 20]. |
-| **Beneficios** | • Facilita el mantenimiento y las pruebas unitarias[cite: 20].<br>• Permite cambiar implementaciones técnicas sin modificar las reglas del negocio[cite: 20].<br>• Mejora la organización y separación de responsabilidades en el código[cite: 20]. |
+| **Patrón / Enfoque Arquitectónico** | Clean Architecture (Arquitectura Limpia). |
+| **Objetivo** | Separar responsabilidades y controlar las dependencias hacia el dominio. |
+| **¿Qué problema resuelve?** | Evita el acoplamiento entre la interfaz Angular, las reglas del negocio y las tecnologías externas (bases de datos, API REST, pasarela de pagos). |
+| **Capas Definidas** | Presentación, Aplicación, Dominio e Infraestructura. |
+| **Beneficios** | • Facilita el mantenimiento y las pruebas unitarias.<br>• Permite cambiar implementaciones técnicas sin modificar las reglas del negocio.<br>• Mejora la organización y separación de responsabilidades en el código. |
 
 ---
 
